@@ -245,7 +245,7 @@ chkconfig squid on
 cd /usr/bin
 wget http://belajar-linux.hol.es/Centos/menu && chmod +x menu
 wget http://belajar-linux.hol.es/Centos/badvpn-udpgw && chmod +x badvpn-udpgw
-wget http://belajar-linux.hol.es/Centos/banned-user && chmod +x banned-user
+wget https://raw.githubusercontent.com/ownerjossh/kampret/master/pool/banned-user.sh && chmod +x banned-user
 wget http://belajar-linux.hol.es/Centos/basename && chmod +x basename
 wget https://raw.githubusercontent.com/ownerjossh/kampret/master/pool/benchmark.sh && chmod +x benchmark
 wget http://belajar-linux.hol.es/Centos/bmon && chmod +x bmon
@@ -258,7 +258,7 @@ wget http://belajar-linux.hol.es/Centos/user-add && chmod +x user-add
 wget http://belajar-linux.hol.es/Centos/user-add-pptp && chmod +x user-add-pptp
 wget http://belajar-linux.hol.es/Centos/user-del && chmod +x user-del
 wget http://belajar-linux.hol.es/Centos/user-expire-list && chmod +x user-expire-list
-wget http://belajar-linux.hol.es/Centos/user-gen && chmod +x user-gen
+wget https://raw.githubusercontent.com/ownerjossh/kampret/master/pool/trial.sh && chmod +x trial
 wget https://raw.githubusercontent.com/iswant/7v/master/menu/userlimit2.sh && chmod +x user-limit
 wget https://raw.githubusercontent.com/ownerjossh/kampret/master/pool/user-list.sh && chmod +x user-list
 wget https://raw.githubusercontent.com/ownerjossh/kampret/master/pool/user-login.sh && chmod +x user-login
@@ -267,7 +267,7 @@ wget http://belajar-linux.hol.es/Centos/user-renew && chmod +x user-renew
 wget http://belajar-linux.hol.es/Centos/users && chmod +x users
 wget https://raw.githubusercontent.com/ownerjossh/master-centos6/master/perintah/ps_mem.py && chmod +x ps-mem
 wget http://belajar-linux.hol.es/Centos/user-active-list && chmod +x user-active-list
-wget wget http://pencabulmisteri.esy.es/centos/test.py && chmod +x test.py
+wget https://raw.githubusercontent.com/ownerjossh/master-centos6/master/perintah/ps_mem.py && chmod +x ps-mem.py
 cd
 
 
