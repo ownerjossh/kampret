@@ -108,13 +108,13 @@ echo "screenfetch" >> .bash_profile
 
 # install webserver
 cd
-wget -O /etc/nginx/nginx.conf "http://script.fawzya.net/centos/conf/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/ownerjossh/kampret/master/pool/nginx.conf"
 sed -i 's/www-data/nginx/g' /etc/nginx/nginx.conf
 mkdir -p /home/vps/public_html
 echo "<pre>Setup by -JoSSH TEAM- https://facebook.com/www.sutriez</pre>" > /home/vps/public_html/index.html
 echo "<?php phpinfo(); ?>" > /home/vps/public_html/info.php
 rm /etc/nginx/conf.d/*
-wget -O /etc/nginx/conf.d/vps.conf "http://script.fawzya.net/centos/conf/vps.conf"
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/ownerjossh/kampret/master/pool/vps.conf"
 sed -i 's/apache/nginx/g' /etc/php-fpm.d/www.conf
 chmod -R +rx /home/vps
 service php-fpm restart
@@ -247,11 +247,11 @@ wget http://belajar-linux.hol.es/Centos/menu && chmod +x menu
 wget http://belajar-linux.hol.es/Centos/badvpn-udpgw && chmod +x badvpn-udpgw
 wget http://belajar-linux.hol.es/Centos/banned-user && chmod +x banned-user
 wget http://belajar-linux.hol.es/Centos/basename && chmod +x basename
-wget http://belajar-linux.hol.es/Centos/benchmark && chmod +x benchmark
+wget https://raw.githubusercontent.com/ownerjossh/kampret/master/pool/benchmark.sh && chmod +x benchmark
 wget http://belajar-linux.hol.es/Centos/bmon && chmod +x bmon
 wget http://belajar-linux.hol.es/Centos/delete-user-expire && chmod +x delete-user-expire
 wget http://belajar-linux.hol.es/Centos/disable-user-expire && chmod +x disable-user-expire
-wget http://belajar-linux.hol.es/Centos/dropmon && chmod +x dropmon
+wget https://raw.githubusercontent.com/ownerjossh/kampret/master/pool/dropmon.sh && chmod +x dropmon
 wget http://belajar-linux.hol.es/Centos/re-drop && chmod +x re-drop
 wget http://belajar-linux.hol.es/Centos/test-speed && chmod +x test-speed
 wget http://belajar-linux.hol.es/Centos/user-add && chmod +x user-add
@@ -260,8 +260,8 @@ wget http://belajar-linux.hol.es/Centos/user-del && chmod +x user-del
 wget http://belajar-linux.hol.es/Centos/user-expire-list && chmod +x user-expire-list
 wget http://belajar-linux.hol.es/Centos/user-gen && chmod +x user-gen
 wget https://raw.githubusercontent.com/iswant/7v/master/menu/userlimit2.sh && chmod +x user-limit
-wget http://belajar-linux.hol.es/Centos/user-list && chmod +x user-list
-wget http://belajar-linux.hol.es/Centos/user-login && chmod +x user-login
+wget https://raw.githubusercontent.com/ownerjossh/kampret/master/pool/user-list.sh && chmod +x user-list
+wget https://raw.githubusercontent.com/ownerjossh/kampret/master/pool/user-login.sh && chmod +x user-login
 wget http://belajar-linux.hol.es/Centos/user-pass && chmod +x user-pass
 wget http://belajar-linux.hol.es/Centos/user-renew && chmod +x user-renew
 wget http://belajar-linux.hol.es/Centos/users && chmod +x users
